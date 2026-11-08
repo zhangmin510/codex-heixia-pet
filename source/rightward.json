@@ -1,0 +1,132 @@
+{
+  "state": "running-right",
+  "motion": "Real right-facing slow steps with nose low, cropped from local footage. Not a sprint.",
+  "source": {
+    "video_id": "V012",
+    "original_filename": "IMG_5293.MOV",
+    "original_sha256": "252f2f0cee70353f1081706fd1dedb8b21ff7ac4eb6abd4046a40a9c0483a530",
+    "working_copy_sha256": "15f4c810eeef94b07506d7cfcbf6b7c86704d19840672d7c03918a2336954cd9",
+    "start_s": 21.25,
+    "duration_s": 1.0,
+    "nominal_sample_times_s": [
+      21.25,
+      21.375,
+      21.5,
+      21.625,
+      21.75,
+      21.875,
+      22.0,
+      22.125
+    ],
+    "crop_xywh_px": [
+      180,
+      350,
+      540,
+      540
+    ]
+  },
+  "processing": {
+    "foreground_engine": "Apple Vision VNGenerateForegroundInstanceMaskRequest and Core Image CIBlendWithMask",
+    "compute_device": "System-selected",
+    "focus_xy": [
+      0.64,
+      0.4
+    ],
+    "no_mirror": true,
+    "no_generated_motion": true,
+    "registration": {
+      "alpha_bbox_threshold": 20,
+      "upper_torso_band_below_alpha_top_px": [
+        16,
+        50
+      ],
+      "torso_center_x_px": [
+        356,
+        352,
+        346,
+        341,
+        334,
+        327,
+        322,
+        316
+      ],
+      "horizontal_shift_px": [
+        0,
+        4,
+        10,
+        15,
+        22,
+        29,
+        34,
+        40
+      ],
+      "registered_union_bbox_xyxy_px": [
+        163,
+        149,
+        482,
+        335
+      ],
+      "common_scaled_size_px": [
+        532,
+        310
+      ],
+      "encoded_canvas_px": [
+        640,
+        360
+      ],
+      "feet_reference_y_px": 330
+    }
+  },
+  "output": {
+    "filename": "rightward.webm",
+    "sha256": "0380c9c7b8b34398433c36d5ce9456f96bd2eb6655542ab0354d04c108b65554",
+    "bytes": 292087,
+    "width_px": 640,
+    "height_px": 360,
+    "duration_s": 1.0,
+    "fps": 8,
+    "frame_count": 8,
+    "codec": "VP9 with alpha",
+    "alpha_ranges": [
+      [
+        0,
+        255
+      ],
+      [
+        0,
+        255
+      ],
+      [
+        0,
+        255
+      ],
+      [
+        0,
+        255
+      ],
+      [
+        0,
+        255
+      ],
+      [
+        0,
+        255
+      ],
+      [
+        0,
+        255
+      ],
+      [
+        0,
+        255
+      ]
+    ],
+    "decoded_union_bbox_xyxy_px": [
+      63,
+      28,
+      578,
+      322
+    ],
+    "distinct_decoded_frames": 8
+  }
+}
